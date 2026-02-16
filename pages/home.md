@@ -7,3 +7,11 @@ type: page
 # Welcome
 
 This is your new project's homepage. Edit this file to get started.
+
+{% dropdown
+    id="demo_dropdown"
+    data="demo_daily_orders"
+    value_column="category"
+/%}
+
+asdadsadsasdasd
