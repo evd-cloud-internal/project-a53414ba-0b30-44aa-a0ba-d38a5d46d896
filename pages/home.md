@@ -15,3 +15,16 @@ This is your new project's homepage. Edit this file to get started.
 /%}
 
 asdadsadsasdasd
+
+
+{% area_chart
+    data="demo_daily_orders"
+    x="date"
+    y="sum(total_sales)"
+    filters=["demo_dropdown"]
+/%}
+
+
+{% logo
+    domain="www.stripe.com"
+/%}
